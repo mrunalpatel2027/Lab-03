@@ -23,13 +23,13 @@
             "args": ["sales_data123.csv"]
         },
         {
-            "name": "Run with invalid CSV Path",
+            "name": "Run without CSV Path",
             "type": "python",
             "request": "launch",
             "program": " process_sales_data.py",
             "console": "integratedTerminal",
             "justMyCode": true,
-            "args": ["sales_data123.csv"]
+           
         },
     
     ]
