@@ -106,8 +106,7 @@ def process_sales_data(sales_csv_path, orders_dir_path):
         order_exce_path = os.path.join(orders_dir_path, order_file)
 
         # Export the data to an Excel sheet
-        worksheet_name = f'order #{order_id}'
-        order_df.to_excel(order_exce_path, index=False, sheet_name=worksheet_name)
+    
         
         
         # TODO: Format the Excel sheet
